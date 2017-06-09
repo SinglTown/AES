@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF3E67651EEA710700741D0B /* MyGitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3E67641EEA710700741D0B /* MyGitViewController.m */; };
+		FF3E67681EEA711300741D0B /* MyGitTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3E67671EEA711300741D0B /* MyGitTwoViewController.m */; };
 		FF6E0BAF1EB0A71500C8DA53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6E0BAE1EB0A71500C8DA53 /* main.m */; };
 		FF6E0BB21EB0A71500C8DA53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6E0BB11EB0A71500C8DA53 /* AppDelegate.m */; };
 		FF6E0BB51EB0A71500C8DA53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6E0BB41EB0A71500C8DA53 /* ViewController.m */; };
@@ -20,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF3E67631EEA710700741D0B /* MyGitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyGitViewController.h; sourceTree = "<group>"; };
+		FF3E67641EEA710700741D0B /* MyGitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyGitViewController.m; sourceTree = "<group>"; };
+		FF3E67661EEA711300741D0B /* MyGitTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyGitTwoViewController.h; sourceTree = "<group>"; };
+		FF3E67671EEA711300741D0B /* MyGitTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyGitTwoViewController.m; sourceTree = "<group>"; };
 		FF6E0BAA1EB0A71500C8DA53 /* AESEncryption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AESEncryption.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF6E0BAE1EB0A71500C8DA53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FF6E0BB01EB0A71500C8DA53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -75,6 +81,10 @@
 				FF6E0BB11EB0A71500C8DA53 /* AppDelegate.m */,
 				FF6E0BB31EB0A71500C8DA53 /* ViewController.h */,
 				FF6E0BB41EB0A71500C8DA53 /* ViewController.m */,
+				FF3E67631EEA710700741D0B /* MyGitViewController.h */,
+				FF3E67641EEA710700741D0B /* MyGitViewController.m */,
+				FF3E67661EEA711300741D0B /* MyGitTwoViewController.h */,
+				FF3E67671EEA711300741D0B /* MyGitTwoViewController.m */,
 				FF6E0BB61EB0A71500C8DA53 /* Main.storyboard */,
 				FF6E0BB91EB0A71500C8DA53 /* Assets.xcassets */,
 				FF6E0BBB1EB0A71500C8DA53 /* LaunchScreen.storyboard */,
@@ -180,9 +190,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF6E0BCD1EB0A74500C8DA53 /* AESCrypt.m in Sources */,
+				FF3E67651EEA710700741D0B /* MyGitViewController.m in Sources */,
 				FF6E0BB51EB0A71500C8DA53 /* ViewController.m in Sources */,
 				FF6E0BCF1EB0A74500C8DA53 /* NSData+CommonCrypto.m in Sources */,
 				FF6E0BCE1EB0A74500C8DA53 /* NSData+Base64.m in Sources */,
+				FF3E67681EEA711300741D0B /* MyGitTwoViewController.m in Sources */,
 				FF6E0BB21EB0A71500C8DA53 /* AppDelegate.m in Sources */,
 				FF6E0BAF1EB0A71500C8DA53 /* main.m in Sources */,
 				FF6E0BD01EB0A74500C8DA53 /* NSString+Base64.m in Sources */,
@@ -346,6 +358,7 @@
 				FF6E0BC31EB0A71500C8DA53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
