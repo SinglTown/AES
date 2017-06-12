@@ -26,6 +26,9 @@
     //解密
     NSString *deEncryContent = [AESCrypt decrypt:encryContent password:key];
     NSLog(@"%@%@",encryContent,deEncryContent);
+    
+    
+    NSLog(@"试一试");
 }
 
 
